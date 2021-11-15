@@ -24,7 +24,7 @@ const main = () => {
     return (
         <div className='container'>
         <Router>
-            <ProductContext.Provider value={{products, setProducts}}>
+           
             <Switch>
                 <Route exact path="/">
                     <Header/>
@@ -51,7 +51,7 @@ const main = () => {
                     <CategoryPage/>
                 </Route>
             </Switch>
-            </ProductContext.Provider>
+           
         </Router>
         </div>
     )
