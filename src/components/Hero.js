@@ -3,7 +3,7 @@ import books from '../assets/image/books.jpg'
 import handmade from '../assets/image/handmade.jpg'
 import sports from '../assets/image/sports.jpg'
 import electronics from '../assets/image/electronics & computers.jpg'
-import '../css/Hero.css'
+import '../assets/css/Hero.css'
 import CategoryCard from '../components/CategoryCard'
 
 const Hero = () => {

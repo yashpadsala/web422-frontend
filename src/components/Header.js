@@ -6,8 +6,8 @@ import {
     Link
   } from "react-router-dom";
 
-import '../css/App.css';
-import '../css/Header.css';
+import '../assets/css/App.css';
+import '../assets/css/Header.css';
 import logo from '../assets/image/logo.jpg';
 
 const header = () => {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 import {
     BrowserRouter as Router,
@@ -12,7 +12,7 @@ import App from './App'
 import Hero from './Hero'
 import Footer from './Footer'
 import ProductList from './ProductList'
-import '../css/bootstrap.css';
+import '../assets/css/bootstrap.css';
 import ProductCard from './ProductCard'
 import RegistrationPage from '../pages/RegistrationPage'
 import CategoryPage from '../pages/CartegoryPage'
@@ -20,9 +20,12 @@ import MainCategory from '../components/MainCategory'
 import ProductContext from '../context/productContext'
 
 const main = () => {
+    const [products , setProducts] = useState([{}]);
+;
     return (
         <div className='container'>
         <Router>
+            <ProductContext.Provider value={{products, setProducts}}>
             <Switch>
                 <Route exact path="/">
                     <Header/>
@@ -49,6 +52,7 @@ const main = () => {
                     <CategoryPage/>
                 </Route>
             </Switch>
+            </ProductContext.Provider>
         </Router>
         </div>
     )

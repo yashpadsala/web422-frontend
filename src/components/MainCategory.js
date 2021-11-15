@@ -1,6 +1,6 @@
 import React from 'react'
 import CategoryCard from './CategoryCard'
-import '../css/MainCategory.css'
+import '../assets/css/MainCategory.css'
 import bedding from '../assets/image/beding.jpg'
 import furniture from '../assets/image/furniture.jpg'
 import homedecore from '../assets/image/homedecore.jpg'

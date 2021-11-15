@@ -3,10 +3,10 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CategoryCard from '../components/CategoryCard'
 
-import books from '../image/books.jpg'
-import handmade from '../image/handmade.jpg'
-import sports from '../image/sports.jpg'
-import electronics from '../image/electronics & computers.jpg'
+import books from '../assets/image/books.jpg'
+import handmade from '../assets/image/handmade.jpg'
+import sports from '../assets/image/sports.jpg'
+import electronics from '../assets/image/electronics & computers.jpg'
 
 const CartegoryPage = () => {
     return (
