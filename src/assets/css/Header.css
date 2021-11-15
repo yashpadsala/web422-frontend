@@ -1,0 +1,53 @@
+.navigation {
+    background-color: rgb(99, 96, 96);
+    overflow: hidden;
+    height: 50px;
+  }
+  
+  .a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .a:hover {
+    
+    color: rgb(31, 28, 28);
+  }
+
+
+.img {
+    height: 100%;
+    width: 6%;
+}
+
+.searchBar {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.button {
+  float: right;
+  width: 13%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background: #2196F3;
+  color: white;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+}
