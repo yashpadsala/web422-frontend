@@ -20,8 +20,7 @@ import MainCategory from '../components/MainCategory'
 import ProductContext from '../context/productContext'
 
 const main = () => {
-    const [products , setProducts] = useState([{}]);
-;
+ 
     return (
         <div className='container'>
         <Router>
